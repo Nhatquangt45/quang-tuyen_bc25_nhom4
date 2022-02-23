@@ -1,0 +1,43 @@
+:root {
+  --color-1: #222222;
+  --color-2: #fff;
+  --orange: #fb811e;
+  --green: #009f4d;
+  --color-text: #707070;
+}
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+}
+/* Global CSS */
+.theme-dark {
+  --color-1: #fff;
+  --color-2: #222222;
+}
+/* body{
+    background: var(--color-1);
+} */
+/* CSS */
+/* @media screen and (max-width: 768px) {
+  :root {
+    --color-1: red;
+    --color-2: yellow;
+  }
+} */
+
+/* .vidu:hover .vidudehover{
+  --color-1: var(--green);
+} */
